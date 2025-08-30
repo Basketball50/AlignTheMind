@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import AuthPage from './AuthPage';
 import Dashboard from './Dashboard';
 import Tracking from './Tracking';
-import SessionSummary from './SessionSummary'; // ✅ added
+import SessionSummary from './SessionSummary'; 
 
 function LandingPage() {
   return (
