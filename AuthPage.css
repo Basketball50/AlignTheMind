@@ -1,0 +1,58 @@
+.auth-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url('https://images.pexels.com/photos/10352379/pexels-photo-10352379.jpeg')
+    no-repeat center center / cover;
+  font-family: Arial, sans-serif;
+}
+
+.auth-container {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 40px;
+  border-radius: 15px;
+  text-align: center;
+  color: white;
+  width: 350px;
+}
+
+.auth-container h1 {
+  margin-bottom: 30px;
+  font-size: 3rem;
+}
+
+.auth-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-container input {
+  margin-bottom: 20px;
+  padding: 12px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: none;
+}
+
+.auth-container button {
+  padding: 12px;
+  font-size: 1.2rem;
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.auth-container button:hover {
+  background-color: #ddd;
+}
+
+.toggle-link {
+  color: #61dafb;
+  cursor: pointer;
+  text-decoration: underline;
+}
